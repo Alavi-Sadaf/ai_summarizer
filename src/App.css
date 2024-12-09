@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 .main {
   width: 100vw;
   min-height: 100vh;
@@ -14,7 +13,7 @@
 }
 
 .main:before {
-  background-color:#000;
+  background-color: #000;
   position: absolute;
   content: "";
   z-index: 2;
@@ -112,5 +111,5 @@
 }
 
 .summary_box {
-  @apply rounded-xl border border-gray-200 bg-white/20 shadow-[inset_10px_-50px_94px_0_rgb(199,199,199,0.2)] backdrop-blur p-4;
+  @apply rounded-xl border border-gray-800 bg-neutral-900/5 shadow-[inset_10px_-50px_94px_0_rgb(199,199,199,0.2)] backdrop-blur p-4;
 }
